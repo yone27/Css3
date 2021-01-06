@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .imagen {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: url('sprites.png');
+        background-position: center;
+        background-size: contain;
+        transition: all 400ms;
+        cursor: pointer;
+
+    }
+    .papa{
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
+    }
+    .imagen:hover{
+        /* filter: brightness(40%); */
+        /* filter: saturate(40%); */
+        /* filter: sepia(45); */
+    }
+    </style>
+</head>
+<body>
+    <div class="papa">
+        <div class="imagen">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@import url('normalize.css');
+div{
+	background-color: red;
+	height: 20px;
+	width: 100%;
+}
+header{
+	background-color: blue;
+	height: 20px;
+	width: 100%;
+	padding: 10px 0;
+}
+header > div{
+	background-color: black;
+	height: 20px;
+	width: 100%;
+	color: #fff;
+}

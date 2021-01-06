@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #48c9b0;
+            text-shadow: black 0 0 10px;
+        }
+        h1 {
+            text-align: center;
+            padding: 10px;
+        }
+        ul {
+            width: 100%;
+        }
+        li{
+            list-style: none;
+            background-color: #229954;
+            /* display: block; */
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+            margin: 10px;
+            cursor: pointer;
+            transition-delay: 0;
+            transition-duration: 4000ms;
+            transition-property: all;
+        }
+        ul:hover li{
+            box-shadow: black 0 0 10px;
+            transform: translate(1100px);
+        }
+        .ease{
+            transition-timing-function: ease;
+        }
+        .linear{
+            transition-timing-function: linear;
+        }
+        .ease-in{
+            transition-timing-function: ease-in;
+        }
+        .ease-out{
+            transition-timing-function: ease-out;
+        }
+        .ease-in-out{
+            transition-timing-function: ease-in-out;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Transitions</h1>
+    <ul>
+        <li class="ease">Tipo ease</li>
+        <li class="linear">Tipo linear</li>
+        <li class="ease-in">Tipo ease-in</li>
+        <li class="ease-out">Tipo ease-out</li>
+        <li class="ease-in-out">Tipo ease-in-out</li>
+    </ul>
+    
+</body>
+</html>

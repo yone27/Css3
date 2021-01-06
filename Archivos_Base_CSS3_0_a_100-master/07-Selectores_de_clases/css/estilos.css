@@ -1,0 +1,12 @@
+@import url('normalize.css');
+.ejemplo{
+	background-color: blue;
+	color: #fff;
+	height: 50px;
+}
+h3.ejemplo{
+	color: yellow;
+}
+.ejemplo p{
+	color: red;
+}

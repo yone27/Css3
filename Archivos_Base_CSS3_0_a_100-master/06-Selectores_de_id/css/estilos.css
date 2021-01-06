@@ -1,0 +1,11 @@
+@import url('normalize.css');
+p{
+	background-color: blue;
+	color: #fff;
+}
+#parrafo{
+	color: red;
+}
+#parrafo1{
+	color: #000;
+}

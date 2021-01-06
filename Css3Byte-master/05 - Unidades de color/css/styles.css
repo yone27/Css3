@@ -1,0 +1,20 @@
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de etiqueta */
+p {
+    margin: 30px;
+}
+
+/* Selector de id */
+#id {
+    padding-top: 200px;
+}
+
+/* Selector de clases */
+.parrafo{
+    
+}

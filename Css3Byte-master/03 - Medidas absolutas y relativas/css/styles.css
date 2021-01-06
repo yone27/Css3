@@ -1,0 +1,19 @@
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cuadro{
+    background-color: rgba(red, green, blue, .8);
+    color: aliceblue;
+    height: 30%;
+    width: 90%;
+}
+
+.cuadro{
+    background-color: #000;
+    color: aliceblue;
+    height: 30%;
+    width: 90%;
+}
